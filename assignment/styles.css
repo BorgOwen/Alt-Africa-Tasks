@@ -1,0 +1,128 @@
+.table {
+    border-collapse:collapse;
+    border:1px solid #fcfdfc;
+    width: 100%;
+}
+
+.th {
+    color: #0c0202;
+    font-weight: bold;
+    text-align: center;
+    padding: 50x;
+}
+
+.td {
+    padding: 50px;
+    border-bottom: 1 px solid #ccc;
+    text-align: center;
+    border:1px solid #948c8c;
+}
+
+tr:hover {
+background-color: #ccc;
+}
+
+tr:active {
+    background-color: #e97c7c;
+}
+
+.design1 {
+    padding-top: 90px;
+    padding-left: 264px;
+    padding-right: 264px;
+    padding-bottom: 64px;
+    display: block;
+    background-color: #cfd6cf;
+    
+    display: block;
+    
+}
+
+#Otter {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    background-color: #dd0bba;
+    width: 200px;
+    height: 40px;
+    margin-top: 10%;
+    }
+
+.block {
+    font-family: 'Times New Roman', Times, serif;
+    font: size 35px;
+    padding: 40px;
+    width: auto;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #fdfdfd;
+    display: inline-flex;
+}
+
+.empty {
+    height: 150px;
+    width: 100%;
+}
+
+.blue {
+    color: blue;
+}
+.design2 {
+    padding-top: 90px;
+    padding-left: 264px;
+    padding-bottom: 64px;
+    display: block;
+    
+}
+.berry {
+    border-top-left-radius: 96px;
+    border-bottom-left-radius: 264px;
+}
+
+.grey {
+    padding-top: 72px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 66px;
+    background-color: #948c8c;
+    display: block;
+}
+
+.lower-section {
+    width: 800px;
+    height: 312px;
+    background-color: #fcfdfc;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    display: block;
+
+}
+
+.banner {
+    width: 398px;
+    height: 60px;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-bottom: 16px;
+    background-color: #ecdd07;
+    display: block;
+}
+
+.First-p {
+    width: 752px;
+    height: 200px;
+    display: inline;
+}
+.berry-p {
+    padding-block: 16;
+}
+/*responsive table styles*/
+@media only screen and (max-width:1200px) {
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+}
