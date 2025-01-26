@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>wp-pusher</title>
+  </head>
+
+  <body>
+    <div class="wp-pusher">
+      <header>
+        <nav>
+          <div class="wp-navbar">
+            <div class="wp-logo"></div>
+            <div class="wp-button-links">
+              <a href="./download.html">Download</a>
+              <a href="./learn.html">Learn more</a>
+              <a href="./pricing.html">Pricing</a>
+              <a href="./help.html">Help</a>
+              <a href="./account.html"><button>Account</button></a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="panel">
+        <div class="content">
+          <div class="sidebar-large">
+            <div class="title">
+              <div
+                class="Checkout"
+                style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"
+              >
+                Checkout
+              </div>
+              <div
+                style="
+                  background-color: #f5f7fa;
+                  height: 2px;
+                  width: 580px;
+                  z-index: 1;
+                  margin-bottom: 34px;
+                "
+              ></div>
+            </div>
+
+            <div class="section-basic">
+              <form action="https://httpbin.org/get" method=" get">
+                <fieldset style="padding: 0%; border-style: none">
+                  <ul style="list-style: none; padding: 0px; margin: 0px">
+                    <div class="basic">Your Basic Information</div>
+
+                    <div
+                      style="display: flex; flex-direction: column; gap: 15px"
+                    >
+                      <div
+                        style="display: flex; flex-direction: row; gap: 15px;"
+                      >
+                        <ul
+                          style="
+                            list-style: none;
+                            gap: 7px;
+                            width: fit-content;
+                            height: auto;
+                            padding: 0px;
+                          "
+                        >
+                          <li
+                            style="
+                              display: flex;
+                              flex-direction: column;
+                              gap: 7px;
+                              color: #1D2C3C;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 16.8px;
+                              font-family: sans-serif;
+                            "
+                          >
+                            <label for="First name">First Name: </label>
+                            <input
+                              class="input-name"
+                              type="text"
+                              placeholder="Jane"
+                              required
+                              autocomplete="on"
+                            />
+                          </li>
+                        </ul>
+                        &nbsp;
+
+                        <ul
+                          style="
+                            list-style: none;
+                            gap: 7px;
+                            width: fit-content;
+                            height: auto;
+                            padding: 0px;
+                          "
+                        >
+                          <li
+                            style="
+                              display: flex;
+                              flex-direction: column;
+                              gap: 7px;
+                              color: #1D2C3C;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 16.8px;
+                              font-family: sans-serif;
+                            "
+                          >
+                            <label for="Second name">Second Name: </label>
+                            <input
+                              class="input-name"
+                              type="text"
+                              placeholder="Doe"
+                              required
+                              autocomplete="on"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <ul
+                          style="
+                            list-style: none;
+                            gap: 7px;
+                            width: fit-content;
+                            height: auto;
+                            padding: 0px;
+                          "
+                        >
+                          <li
+                            style="
+                              display: flex;
+                              flex-direction: column;
+                              gap: 7px;
+                              color: #1D2C3C;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 16.8px;
+                              font-family: sans-serif;
+                            "
+                          >
+                            <label for="email">Email: </label>
+                            <input
+                              class="input-email"
+                              type="email"
+                              placeholder="janedoe@example.com"
+                              required
+                              autocomplete="on"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </ul>
+                </fieldset>
+              </form>
+            </div>
+
+            <div
+              style="
+                background-color: #f5f7fa;
+                height: 2px;
+                width: 580px;
+                z-index: 1;
+              "
+            ></div>
+            <div style="height: 33px; width: auto"></div>
+
+            <div class="section-basic">
+              <form action="https://httpbin.org/get" method=" get">
+                <fieldset style="padding: 0%; border-style: none">
+                  <ul style="list-style: none; padding: 0px; margin: 0px">
+                    <div class="basic">Your Payment Information</div>
+
+                    <div
+                      style="display: flex; flex-direction: column; gap: 15px; width: 482px;"
+                    >
+                      <div>
+                        <ul
+                          style="
+                            list-style: none;
+                            gap: 7px;
+                            width: 482px;
+                            height: auto;
+                            padding: 0px;
+                          "
+                        >
+                          <li
+                            style="
+                              display: flex;
+                              flex-direction: column;
+                              gap: 7px;
+                              color: #1D2C3C;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 16.8px;
+                              font-family: sans-serif;
+
+                            "
+                          >
+                            <label for="card">Credit Card:</label>
+
+                            <input
+                              class="input-card"
+                              type="tel"
+                              placeholder="Card Number"
+                              required
+                              maxlength="16"
+                              pattern="[0-9\s]{13,19}"
+                            />
+
+                            <input
+                              type="text"
+                              class="input-card"
+                              placeholder="MM / YY"
+                              maxlength="5"
+                              pattern="Date/year"
+                            />
+
+                            <input
+                              type="text"
+                              class="input-card"
+                              placeholder="CVC"
+                              maxlength="3"
+                              pattern="\d{3}"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </ul>
+                </fieldset>
+              </form>
+            </div>
+
+            <div
+              style="
+                background-color: #f5f7fa;
+                height: 2px;
+                width: 580px;
+                z-index: 1;
+              "
+            ></div>
+
+            <div class="purchase">
+              <div class="powered-by-stripe"></div>
+              <div class="support"></div>
+              <div class="buy-button">Buy WP Pusher</div>
+            </div>
+          </div>
+
+          <div class="sidebar">
+            <div class="sidebar-content">
+              <div style="margin-bottom: 36px">
+                <div
+                  style="font-size: 20px; font-weight: 700; line-height: 24px"
+                >
+                  Freelancer
+                </div>
+                <div class="pricing">
+                  <div
+                    style="
+                      font-size: 24px;
+                      font-weight: 700;
+                      line-height: 28.8px;
+                      width: 14px;
+                      height: 29px;
+                    "
+                  >
+                    $
+                  </div>
+                  <div
+                    style="font-size: 60px; font-weight: 300; line-height: 72px"
+                  >
+                    99
+                    <span
+                      style="
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 21.6px;
+                      "
+                      >/ year</span
+                    >
+                  </div>
+                </div>
+                <div
+                  style="
+                    font-style: italic;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    height: 48px;
+                  "
+                >
+                  Automatically renews after 1 year
+                </div>
+              </div>
+
+              <div
+                class="details"
+                style="
+                  margin-bottom: 38px;
+                  display: flex;
+                  flex-direction: row;
+                  gap: 11px;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                  "
+                >
+                  <div>icon</div>
+                  <div>icon</div>
+                  <div>icon</div>
+                </div>
+
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                  "
+                >
+                  <div>Use on 5 client site</div>
+                  <div>Private repositories</div>
+                  <div>Email Support</div>
+                </div>
+              </div>
+
+              <div class="switch" style="margin-bottom: 41px">
+                <div>
+                  <p>
+                    Need <span>20</span> <span>client sites?</span>
+                    <span>Switch to the</span> <span>Agency</span
+                    ><span>plan.</span>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="quote"
+                style="
+                  border-top: 2px;
+                  padding-top: 43px;
+                  border-top-color: #4194cc;
+                  border-top-style: solid;
+                "
+              >
+                <div>
+                  FTP is horrible to deal with. <span>WP Pusher</span> solves
+                  that issue, and the customer support is awesome!
+                </div>
+
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    gap: 14px;
+                    margin-top: 17px;
+                  "
+                >
+                  <div>bitmap</div>
+                  <div>Kirk Beard</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer-wp">
+          <div>pic?</div>
+          <div class="footer-p">
+            <p>
+              <b>Need any help? </b
+              ><span class="footer-span"
+                >Don't hesitate to contact support!</span
+              >
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
