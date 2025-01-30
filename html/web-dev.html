@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles2.css" />
+    <link rel="stylesheet" type="font-family" href="./assets/fonts/Lato/Lato-Black.ttf">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
     <title>Web Development Training</title>
   </head>
 
@@ -16,16 +23,22 @@
               margin-bottom: 50px;
               width: 77.33px;
               height: 80px;
-              box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+              filter: blur(0px 4px 10px rgba(0, 0, 0, 0.1));
             "
           >
-            logo
+            <img
+              src="./assets/img/Logo.png"
+              alt="logo"
+              style="filter:blur (0px 4px 10px rgba(0, 0, 0, 0.1));"
+            />
           </div>
           <div>
             <h1
               style="
                 font-size: 40px;
                 font-weight: 700;
+                font-family: sans-serif;
+
                 line-height: 50px;
                 margin-bottom: 20px;
                 color: #000b0a;
@@ -53,59 +66,17 @@
       </div>
 
       <div class="right-content">
+
         <div class="right-form">
           <form action="https://httpbin.org/get" method=" get">
-            <fieldset class="fieldset">
-
-            <div class="up">
-                <div class="cont">
-                
-                    <ul class="ul">
-                      <li class="cont-lu">
-                        <label for="First name">First Name: </label>
-                        <input
-                          class="input-name"
-                          type="text"
-                          placeholder="Tolu"
-                          required
-                          autocomplete="on"
-                        />
-                      </li>
-                    </ul>
-  
-                    <ul>
-                      <li class="cont-lu">
-                        <label for="gender">Gender </label>
-                        <input
-                          class="input-name"
-                          type=""
-                          placeholder="Select here"
-                          required
-                        />
-                      </li>
-                    </ul>
-  
-                    <ul>
-                      <li class="cont-lu">
-                        <label for="Weight">Weight (KG) </label>
-                        <input
-                          class="input-name"
-                          type="text"
-                          placeholder="Enter Weight"
-                          required
-                          autocomplete="on"
-                        />
-                      </li>
-                    </ul>
-                  </div>
-
-              <div class="cont">
-                
+            <fieldset class="fieldset" style="display: grid; grid-template-rows: repeat(2, 1fr); grid-template-columns: 1, 1fr; gap: 15px;">
+              <div class="up" style="display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 1, 1fr; gap: 50px">
+                <div class="cont1">
                   <ul class="ul">
                     <li class="cont-lu">
                       <label for="First name">First Name: </label>
                       <input
-                        class="input-name"
+                        class="input-name_web"
                         type="text"
                         placeholder="Tolu"
                         required
@@ -114,11 +85,11 @@
                     </li>
                   </ul>
 
-                  <ul>
+                  <ul class="ul">
                     <li class="cont-lu">
                       <label for="gender">Gender </label>
                       <input
-                        class="input-name"
+                        class="input-name_web"
                         type=""
                         placeholder="Select here"
                         required
@@ -126,11 +97,11 @@
                     </li>
                   </ul>
 
-                  <ul>
+                  <ul class="ul">
                     <li class="cont-lu">
                       <label for="Weight">Weight (KG) </label>
                       <input
-                        class="input-name"
+                        class="input-name_web"
                         type="text"
                         placeholder="Enter Weight"
                         required
@@ -138,51 +109,85 @@
                       />
                     </li>
                   </ul>
-
-                   
-
-              </div>
-
                 </div>
 
-                <div class="down">
-                  <ul>
+                <div class="cont2">
+                  <ul class="ul">
                     <li class="cont-lu">
-                      <label for="Activity Level">Activity Level </label>
+                      <label for="Last name">Last Name: </label>
                       <input
-                        class="input-name2"
+                        class="input-name_web"
                         type="text"
+                        required
+                        autocomplete="on"
+                      />
+                    </li>
+                  </ul>
+
+                  <ul class="ul">
+                    <li class="cont-lu">
+                      <label for="DOB">Date of Birth </label>
+                      <input
+                        class="input-name_web"
+                        type="date"
                         placeholder="Select here"
                         required
-                        autocomplete="on"
                       />
                     </li>
                   </ul>
 
-                  <ul>
+                  <ul class="ul">
                     <li class="cont-lu">
-                      <label for="password">Password </label>
+                      <label for="Height">Height (CM) </label>
                       <input
-                        class="input-name2"
-                        type="password"
+                        class="input-name_web"
+                        type="text"
+                        placeholder="Enter Height here.."
                         required
                         autocomplete="on"
                       />
                     </li>
                   </ul>
                 </div>
-
-                <footer class="footer">
-                  <p>
-                    &copy; 2025 AltSchool Tasks | Tolu Ogunwenmo All rights
-                    reserved. Lagos, Nigeria
-                  </p>
-                </footer>
               </div>
+
+              <div class="cont3">
+                <ul class="ul">
+                  <li class="cont-lu">
+                    <label for="Activity Level">Activity Level </label>
+                    <input
+                      class="input-name_web2"
+                      type="text"
+                      placeholder="Select here"
+                      required
+                                          />
+                  </li>
+                </ul>
+
+                <ul class="ul">
+                  <li class="cont-lu">
+                    <label for="password">Password </label>
+                    <input
+                      class="input-name_web2"
+                      type="password"
+                      required
+                      
+                    />
+                  </li>
+                </ul>
+                <button class="register-button"><a class="buy" href="">Register</a></button>
+              </div>
+
+              <footer class="footer-green">
+                <p>
+                  By clicking Register, you agree to our <span class="green"><a class="green" href="">Terms of Use</a></span> and our <span class="green"><a class="green" href="">Privacy Policy</a></span>
+                </p>
+              </footer>
             </fieldset>
           </form>
         </div>
-      </div>
+    
+    </div>
     </div>
   </body>
 </html>
