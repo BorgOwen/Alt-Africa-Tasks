@@ -21,9 +21,10 @@
   border-style: none
 }
 .table {
-  border-collapse: collapse;
+  border-collapse:collapse;
   border: 1px solid #fcfdfc;
-  width: 100%
+  width: 100%;
+  box-shadow: 0px 15px 35px rgba(43, 64, 78, 0.1);
 }
 .th {
   color: #0c0202;
@@ -79,7 +80,7 @@ tr:active {
   color: #f8f0f8;
   text-align: center;
   position: absolute;
-  top: 300px;
+  top: 170px;
   left: 560px;
   padding-inline: 30px;
   padding-block: 20px;
@@ -115,8 +116,37 @@ tr:active {
   height: 300px;
   width: 100%
 }
+
+
+
+.fieldset1 {
+  color: #fff;
+  max-width: fit-content;
+  height: fit-content;
+  box-shadow: 0 4px 50px rgba(4,8,19,.1);
+  border-style: solid;
+  padding: 20px;
+  color: #011c34;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-self: center
+}
+.cont-lu {
+  display: flex;
+  flex-direction: column;
+  padding: none;
+  gap: 7px;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  height: 72px;
+  font-family: sans-serif
+}
+
 .green {
-  color: #038a68
+  color: #442202
 }
 .Header {
   height: 382px;
@@ -144,6 +174,18 @@ tr:active {
   border-width: 8px;
   border-top-style: solid
 }
+
+.main-purple{
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 60px;
+  height: max-content;
+  margin: auto;
+  padding: auto;
+  background-color: #5cebe3;
+  display: flex;
+  flex-direction: column;
+}
 .card {
   overflow: hidden;
   width: 800px;
@@ -163,6 +205,21 @@ tr:active {
   z-index: 0;
   position: static
 }
+
+.card-watch{
+  overflow: hidden;
+  width: 600px;
+  height: auto;
+  margin-top: 80px;
+  background-color: #ddfcf9;
+  box-shadow: 0px 15px 35px rgba(15, 26, 34, 0.1);
+  display: block;
+  flex-direction: column;
+  /* justify-content: center; */
+  border-radius: 40px;
+  z-index: 0;
+  position: static
+}
 .banner {
   width: 398px;
   height: 60px;
@@ -176,10 +233,33 @@ tr:active {
   left: 240px;
   z-index: 1
 }
+
+.wealth-banner {
+  width: fit-content;
+  padding-left: 16px;
+  padding-right:  16px;
+  background-color: #f1c0db;
+  display: flex;
+  border-radius: 20px;
+  float: left;
+  position: absolute;
+  left: 230px;
+  top: 100px;
+  z-index: 1
+}
+
 .Wealth {
+  font-size: 24px;
+  font-weight: 800px;
+  color: #551b3b
+}
+
+
+.Watch {
   font-size: 24px;
   font-weight: 800px
 }
+
 .pcontainer {
   display: flex;
   flex-direction: column;
@@ -189,6 +269,60 @@ tr:active {
   position: relative;
   z-index: 0
 }
+
+.wcontainer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: transparent;
+  height: fit-content;
+  position: relative;
+  z-index: 0
+}
+.watch-upper{
+height: 60%;
+width: fit-content;
+}
+.watch-img{
+  background-size: cover;
+  height: 450px;
+}
+.watch-lower{
+  height: 40%;
+  width: fit-content;
+  background-color: transparent;
+ padding-left:  30px;
+  padding-right: 30px; 
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* padding-top: 30px;  */
+  /* padding-bottom: 40px; */
+  }
+
+  .watch-p {
+    width: fit-content;
+    height: 150px;
+    text-align: left;
+    font-weight: 500px;
+    font-size:  20px;
+    color: #012518;
+  }
+  .watch-h1{
+  text-align: left;
+  font-weight: 700;
+  font-size: 34px;
+  color: #013f27;
+  }
+  
+  .watch-span{
+  font-size: 24px;
+  font-weight: 500;
+  color: #619c85;
+  }
+  
+
 #nav {
   padding-top: 10px;
   display: flex;
@@ -222,6 +356,22 @@ tr:active {
   height: max-content;
   margin: auto;
   padding: auto
+}
+.media-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.line{
+  width: 2px;
+  background-color: #a3a3a3;
+
+}
+
+.media-right{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 .First-p {
   width: fit-content;
@@ -260,185 +410,59 @@ tr:active {
     font-size: 36px
   }
 }
-.wp-pusher {
-  width: 1440px;
-  height: 1170px;
-  background-color: #f5f8fa
-}
-.wp-navbar {
-  width: 1360px;
-  height: 73px;
-  border-bottom: #1179bf;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between
-}
-.wp-logo {
-  width: 200px;
-  height: 39px
-}
-.wp-button-links {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  padding-left: 19px;
-  padding-right: 20px;
-  padding-top: 11px;
-  padding-bottom: 12px;
-  width: fit-content;
-  height: fit-content;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: sans-serif
-}
-.panel {
-  width: 892px;
-  height: 845px;
-  margin-top: 186px;
-  margin-bottom: 139px;
-  margin-left: 262px;
-  margin-right: 286px
-}
-.content {
-  display: flex;
-  flex-direction: row;
-  max-width: 892px;
-  max-height: 845px
-}
+
 .input-name {
   width: 214px;
   height: 36px;
   background-color: #edeff2;
-  color: #646e7a;
+  color: #8e9fad;
   border-radius: 4px;
   border-style: none;
   padding-left: 13px
+
 }
-.input-email {
-  width: 370px;
+
+.input-nm {
+    width: 214px;
+    height: 36px;
+    border-color: #e2e0e0;
+    border-radius: 4px;
+    border-style: ridge;
+    border-width: 1px;
+    padding-left: 13px
+}
+.input-nm2 {
+  width:560px;
   height: 36px;
-  background-color: #edeff2;
-  color: #646e7a;
+  border-color: #e2e0e0;
   border-radius: 4px;
-  border-style: none;
+  border-style: ridge;
+  border-width: 1px;
   padding-left: 13px
+
 }
-.input-card {
-  width: 468px;
-  height: 36px;
-  background-color: #edeff2;
-  color: #646e7a;
-  border-radius: 4px;
+
+
+.submit{
+  width: 500px;
+  height: 48px;
+  background-color: #2e88c4;
+  border-radius: 3px;
   border-style: none;
-  padding-left: 13px
-}
-.sidebar {
-  width: 312px;
-  height: 795px;
-  background-color: #1179bf;
-  color: #fff
-}
-.sidebar-content {
-  padding-top: 42px;
-  padding-left: 44px;
-  padding-right: 37px;
-  font-family: sans-serif
-}
-.pricing {
-  display: flex;
-  flex-direction: row
-}
-.sidebar-large {
-  width: 580px;
-  height: 795px;
-  background-color: #fff
-}
-.nav-bar {
-  width: 1360px;
-  height: 73px
-}
-.title {
-  width: 580px;
-  height: 80px
-}
-.Checkout {
-  width: 161px;
-  height: 54px;
-  font-size: 30px;
-  font-weight: 400;
-  color: #1d2c3c;
-  line-height: 36px;
-  margin-left: 48px;
-  margin-top: 41px;
-  margin-bottom: 24px
-}
-.section-basic {
-  margin-left: 48px;
-  margin-right: 48px;
-  padding-bottom: 41px;
-  margin-top: 24px
-}
-.section-payment {
-  margin-left: 48px
-}
-.basic {
-  width: 260px;
-  height: 34px;
-  border: 2px;
-  border-color: #548bc5;
-  font-size: 18px;
-  font-weight: 700;
-  font-family: sans-serif;
-  color: #1d2c3c
-}
-.firstname {
-  width: 227px;
-  height: 60px;
-  font-size: 14px;
-  font-weight: 400;
-  color: #1d2c3c
-}
-.buy-button {
-  background-color: #038e7d;
-  padding-top: 13px;
-  padding-bottom: 17px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.6px;
-  text-align: center;
-  color: #fff;
-  margin-left: 49px;
-  margin-right: 49px;
-  margin-top: 40px;
-  border-radius: 5px
-}
-.footer-wp {
-  text-align: center;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  font-family: sans-serif;
-  line-height: 16.8px;
+}
+
+.submit-div{
+  margin: 80px; 
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin-top: 23px;
-  gap: 9px
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* margin-left: 120px;
+  margin-right: 120px; */
 }
-.footer-span {
-  color: #566473;
-  font-weight: 400;
-  font-size: 14px;
-  list-style: 16.8px
-}
-.question {
-  width: 20px;
-  height: 20px;
-  font-size: 14px;
-  font-weight: 700;
-  border-color: #548bc5;
-  color: #548bc5;
-  border-style: solid;
-  border-radius: 100px
-}
+
+
+

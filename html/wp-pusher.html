@@ -3,22 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
     <title>wp-pusher</title>
   </head>
 
   <body>
-    <div class="wp-pusher">
+    <div class="WP-pusher">
       <header>
         <nav>
           <div class="wp-navbar">
-            <div class="wp-logo"></div>
+            <a href="">
+                <img
+                  src="./assets/img/wppusher-logo copy.png"
+                  width="200px"
+                  height="39px"
+                />
+            </a>
             <div class="wp-button-links">
-              <a href="./download.html">Download</a>
-              <a href="./learn.html">Learn more</a>
-              <a href="./pricing.html">Pricing</a>
-              <a href="./help.html">Help</a>
-              <a href="./account.html"><button>Account</button></a>
+              <button class="nav-acc2"><a href="./download.html">Download</a></button>
+              <button class="nav-acc2"><a href="./learn.html">Learn more</a></button>
+              <button class="nav-acc2"><a href="./pricing.html">Pricing</a></button>
+              <button class="nav-acc2"><a href="./help.html">Help</a></button>
+              <button class="nav-acc"><a href="./account.html">Account</a></button>
             </div>
           </div>
         </nav>
@@ -49,13 +61,20 @@
               <form action="https://httpbin.org/get" method=" get">
                 <fieldset style="padding: 0%; border-style: none">
                   <ul style="list-style: none; padding: 0px; margin: 0px">
-                    <div class="basic">Your Basic Information</div>
+                    <div class="your">
+                      <img
+                        src="./assets/img/1.png"
+                        width="30px"
+                        height="30px"
+                      />
+                      <div class="basic">Your Basic Information</div>
+                    </div>
 
                     <div
                       style="display: flex; flex-direction: column; gap: 15px"
                     >
                       <div
-                        style="display: flex; flex-direction: row; gap: 15px;"
+                        style="display: flex; flex-direction: row; gap: 15px"
                       >
                         <ul
                           style="
@@ -71,7 +90,7 @@
                               display: flex;
                               flex-direction: column;
                               gap: 7px;
-                              color: #1D2C3C;
+                              color: #1d2c3c;
                               font-size: 14px;
                               font-weight: 400;
                               line-height: 16.8px;
@@ -104,7 +123,7 @@
                               display: flex;
                               flex-direction: column;
                               gap: 7px;
-                              color: #1D2C3C;
+                              color: #1d2c3c;
                               font-size: 14px;
                               font-weight: 400;
                               line-height: 16.8px;
@@ -138,7 +157,7 @@
                               display: flex;
                               flex-direction: column;
                               gap: 7px;
-                              color: #1D2C3C;
+                              color: #1d2c3c;
                               font-size: 14px;
                               font-weight: 400;
                               line-height: 16.8px;
@@ -176,10 +195,26 @@
               <form action="https://httpbin.org/get" method=" get">
                 <fieldset style="padding: 0%; border-style: none">
                   <ul style="list-style: none; padding: 0px; margin: 0px">
-                    <div class="basic">Your Payment Information</div>
+                    <div class="your">
+
+                      <div>
+                          <img
+                            src="./assets/img/2.png"
+                            width="30px"
+                            height="30px"
+                          />
+                      </div>
+
+                      <div class="basic">Your Payment Information</div>
+                    </div>
 
                     <div
-                      style="display: flex; flex-direction: column; gap: 15px; width: 482px;"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        width: 482px;
+                      "
                     >
                       <div>
                         <ul
@@ -196,40 +231,39 @@
                               display: flex;
                               flex-direction: column;
                               gap: 7px;
-                              color: #1D2C3C;
+                              color: #1d2c3c;
                               font-size: 14px;
                               font-weight: 400;
                               line-height: 16.8px;
                               font-family: sans-serif;
-
                             "
                           >
                             <label for="card">Credit Card:</label>
 
-                            <input
-                              class="input-card"
-                              type="tel"
-                              placeholder="Card Number"
-                              required
-                              maxlength="16"
-                              pattern="[0-9\s]{13,19}"
-                            />
-
-                            <input
-                              type="text"
-                              class="input-card"
-                              placeholder="MM / YY"
-                              maxlength="5"
-                              pattern="Date/year"
-                            />
-
-                            <input
-                              type="text"
-                              class="input-card"
-                              placeholder="CVC"
-                              maxlength="3"
-                              pattern="\d{3}"
-                            />
+                            <div class="input-cn">
+                                <input
+                                  class="input-card-num"
+                                  type="tel"
+                                  placeholder="Card Number"
+                                  required
+                                  maxlength="16"
+                                  pattern="[0-9\s]{13,19}"
+                                />
+                                <input
+                                  type="text"
+                                  class="input-card-date"
+                                  placeholder="MM / YY"
+                                  maxlength="5"
+                                  pattern="Date/year"
+                                />
+                                <input
+                                  type="text"
+                                  class="input-card-cvc"
+                                  placeholder="CVC"
+                                  maxlength="3"
+                                  pattern="\d{3}"
+                                />
+                            </div>
                           </li>
                         </ul>
                       </div>
@@ -251,8 +285,36 @@
             <div class="purchase">
               <div class="powered-by-stripe"></div>
               <div class="support"></div>
-              <div class="buy-button">Buy WP Pusher</div>
+              <!-- <button class="buy-button"><a href="./download.html">WP Pusher</a></button> -->
+              <button class="buy-button"><a class="buy" href="">Buy WP Pusher</a></button>
             </div>
+            <footer class="footer-wp">
+          
+                <div style="display: flex; flex-direction: row;">
+        
+                   
+                    
+                    <div class="footer-p">
+
+                        <div class="p-contain">
+
+                            <p><div><img src="./assets/img/q.svg" style="height: 20px; width:20px;"/></div>
+                            
+                            <b>Need any help?</b
+                            ><span class="footer-span"> Don't hesitate to contact support!</span
+                            >
+                                                  </p>
+                        </div>
+        
+                      <div style="margin-top: 10px">
+                        <img src="./assets/img/powered_by_stripe.png" />
+                      </div>
+                    </div>
+                </div>
+        
+                  
+        
+            </footer>
           </div>
 
           <div class="sidebar">
@@ -276,10 +338,9 @@
                     $
                   </div>
                   <div
-                    style="font-size: 60px; font-weight: 300; line-height: 72px"
+                    style="font-size: 60px; font-weight: 300; line-height: 72px;"
                   >
-                    99
-                    <span
+                    99<span
                       style="
                         font-size: 18px;
                         font-weight: 700;
@@ -315,15 +376,16 @@
                   style="
                     display: flex;
                     flex-direction: column;
+                    justify-content: space-evenly;
                     gap: 16px;
                     font-size: 16px;
                     font-weight: 700;
                     line-height: 24px;
                   "
                 >
-                  <div>icon</div>
-                  <div>icon</div>
-                  <div>icon</div>
+                  <img src="./assets/img/mark.svg" />
+                  <img src="./assets/img/mark.svg" />
+                  <img src="./assets/img/mark.svg" />
                 </div>
 
                 <div
@@ -343,11 +405,11 @@
               </div>
 
               <div class="switch" style="margin-bottom: 41px">
-                <div>
+                <div style="border-bottom: #b9f4ff8c; border-bottom-style: solid; border-width: 4px; width: 204px; height: 51px;">
                   <p>
-                    Need <span>20</span> <span>client sites?</span>
-                    <span>Switch to the</span> <span>Agency</span
-                    ><span>plan.</span>
+                    Need <span style="font-weight: 700; font-size: 16px; line-height: 19.2px;">20</span> <span style="font-weight: 400; font-size: 16px; line-height: 19.2px;">client sites?</span>
+                    <span style="font-weight:700; font-size: 16px; line-height: 19.2px;">Switch to the</span> <span style="font-size: 16px; font-weight: 700; font-style: italic;">Agency</span
+                    ><span style="font-weight: 700; font-size: 16px; line-height: 19.2px;"> plan.</span>
                   </p>
                 </div>
               </div>
@@ -361,38 +423,34 @@
                   border-top-style: solid;
                 "
               >
-                <div>
-                  FTP is horrible to deal with. <span>WP Pusher</span> solves
-                  that issue, and the customer support is awesome!
+                <div style="padding-top: 43px; width: 227px;">
+                  <p style="font-style: italic;">
+                      FTP is horrible to deal with. <span style="font-size: 18px; font-weight: 700;">WP Pusher</span> solves
+                      that issue, and the customer support is awesome!
+                  </p>
                 </div>
 
                 <div
                   style="
                     display: flex;
                     flex-direction: row;
+                    align-items: center;
                     gap: 14px;
                     margin-top: 17px;
                   "
                 >
-                  <div>bitmap</div>
-                  <div>Kirk Beard</div>
+                  <img class="kirk" src="./assets/img/Bitmap.png" />
+                  <div><b>Kirk Beard</b></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <footer class="footer-wp">
-          <div>pic?</div>
-          <div class="footer-p">
-            <p>
-              <b>Need any help? </b
-              ><span class="footer-span"
-                >Don't hesitate to contact support!</span
-              >
-            </p>
-          </div>
-        </footer>
-      </div>
+
+    
+        <footer class="footerwp">© 2018 WP Pusher IVS  ·  <span class="blue">Terms of Service</span></footer>
+    </div>
+      
     </div>
   </body>
 </html>
