@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./scissors.css" />
-    <link rel="stylesheet" href="./assets/fonts/gilroy/Gilroy-Black.ttf," />
     <title>Scissors</title>
   </head>
 
@@ -70,16 +69,16 @@
 
           <div class="Frame-1000001716">
 
-            <div class="Frame-7">link2</div>
-            <div><img src="./assets/img/link-2.svg">l</div>
-            <div><img src="./assets/img/link-2.svg">l</div>
-            <div><img src="./assets/img/link-2.svg">l</div>
-            arrow
-            <div><img src="./assets/img/link-2.svg">l</div>
+            <div class="Frame-7"></div>
+            <div><img src="./assets/img/link-2.svg" class="link2"></div>
+            <div><img src="./assets/img/link-2.svg" class="link2b"></div>
+            <div><img src="./assets/img/link-2.svg" class="link2c"></div>
+            <div><img src="./assets/img/arrow.svg" class="arrow"></div>
+            <div><img src="./assets/img/link-2.svg" class="link2d"></div>
           </div>
           
-          <p>
-            Seamlessly transform your long URLs into concise and shareable links
+          <p class="p-frame">
+            Seamlessly transform your long URLs into <b>concise</b> and <b>shareable links</b>
             with just few clicks.
           </p>
 
@@ -95,7 +94,11 @@
         </div>
       </div>
 
-      <div class="aurora">aurora</div>
+      <!-- <div class="aurora">
+        <div class="au1"></div>
+        <div class="au2"></div>
+        <div class="au3"></div>
+      </div> -->
     </section>
 
     <section class="second-section">
@@ -103,7 +106,7 @@
       <div class="second-cn">
 
         <div class="left">
-          <p class="one-stop">One Stop. <span class="blue">Four Possibilities</span></p>
+          <p class="one-stop">One Stop<br><span class="blue">Four Possibilities</span></p>
         </div>
         <div class="right">
           <div class="right-cn">
@@ -113,11 +116,11 @@
             </div>
             <div class="sixty">
               <h2 class="h2-sc">60M</h2>
-              Links [&] QR codes created
+              Links & QR<br>codes created
             </div>
             <div class="bill">
               <h2 class="h2-sc">1B</h2>
-              Clicked [&] Scanned connections
+              Clicked & Scanned<br>connections
             </div>
             <div class="three">
               <h2 class="h2-sc">300K</h2>
@@ -129,8 +132,8 @@
 
       <div class="scissors">
         <div class="choose">
-          SVG
-          <h2>Why choose Scissors</h2>
+          
+          <h2><img src="./assets/img/Line 70.png" class="line70">Why choose Scissors</h2>
           <p class="choose-text">
             Scissors is the hub of everything that has to do with your link
             management. We shorten your URLs, allow you creating custom ones for
@@ -144,7 +147,7 @@
 
           <div class="ctable-grid">
             <div class="item1">
-              <div>icon</div>
+              <div><img src="./assets/img/Group 6.png"></div>
               <h2>URL Shortening</h2>
               <p class="table-text">
                 Scissor allows you to shorten URLs of your business, events.
@@ -152,7 +155,7 @@
               </p>
             </div>
             <div class="item2">
-              <div>icon</div>
+              <div><img src="./assets/img/edits.svg"></div>
               <h2>Custom URLs</h2>
               <p class="table-text">
                 With Scissor, you can create custom URLs, with the length you
@@ -160,7 +163,7 @@
               </p>
             </div>
             <div class="item3">
-              <div>icon</div>
+              <div><img src="./assets/img/qrs.svg"></div>
               <h2>QR Codes</h2>
               <p class="table-text">
                 Generate QR codes to your business, events. Bring your audience
@@ -168,7 +171,7 @@
               </p>
             </div>
             <div class="item4">
-              <div>icon</div>
+              <div><img src="./assets/img/analytics.png"></div>
               <h2>Data Analytics</h2>
               <p class="table-text">
                 Receive data on the usage of either your shortened URL, custom
@@ -183,56 +186,62 @@
 
     <section class="price-section">
       <div class="price-top">
-        <div>
+        <div class="pt">
           <h2>A <span class="blue">price perfect</span> for your needs.</h2>
+          <div style="display: flex; flex-direction: column;">
+            <p class="price-text">
+              From catering for your personal, business, event, socials needs, you
+              can be rest assured we have you in mind in our pricing.
+            </p>
+          </div>
         </div>
-        <div style="display: flex; flex-direction: column;">
-          <p class="price-text">
-            From catering for your personal, business, event, socials needs, you
-            can be rest assured we have you in mind in our pricing.
-          </p>
-        </div>
+        
       </div>
 
       <div class="price-cards">
 
         <div class="white-card">
           <p class="text1">Basic</p>
-          <div class="text2"><p>free</p> <p class="text3">Free plan for all users</p></div>
-          <div class="check-icons">icons</div>
-          <div class="check-text">
-            <p>Unlimited URL Shortening</p>
-             <p>Basic Link Analytics</p>
-            <p>Customizable Short Links</p>
-            <p>Standard Support</p> 
-            <p>Ad-supported</p>
+          <div class="text2"><p class="text2a">Free</p> <p class="text3">Free plan for all users</p></div>
+          
+          <div class="icon-text">
+            <div class="check-icons">      
+                </div>
+            <div class="check-text">
+              <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Unlimited URL Shortening</p>
+               <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Basic Link Analytics</p>
+              <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Customizable Short Links</p>
+              <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Standard Support</p>
+              <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Ad-supported</p>
+            </div>
           </div>
+
         </div>
 
         <div class="black-card">
           <p class="text1">Professional</p>
-          <div class="text2"><p> $15/month</p> <p class="text3">Ideal for business creators</p></div>
-          <div class="check-icons">icons</div>
+          <div class="text2"><p class="text2a">$15/month</p> <p class="text3">Ideal for business creators</p></div>
+  
           <div class="check-text">
-            <p>Enhanced Link Analytics</p>
-             <p>Custom Branded Domains</p>
-            <p>Advanced Link
-              Customization</p>
-            <p>Priority Support</p> 
-            <p>Ad-free Experience</p>
+            <p class="ch-text"><img src="./assets/img/check-circle-white.svg" class="check"> Enhanced Link Analytics</p>
+            <p class="ch-text"><img src="./assets/img/check-circle-white.svg" class="check"> Custom Branded Domains</p>
+            <p class="ch-text"><img src="./assets/img/check-circle-white.svg" class="check"> Advanced Link</p>
+              <p class="ch-text"><img src="./assets/img/check-circle-white.svg" class="check"> Customization</p>
+              <p class="ch-text"><img src="./assets/img/check-circle-white.svg" class="check">Priority Support</p> 
+              <p class="ch-text"><img src="./assets/img/check-circle-white.svg" class="check"> Ad-free Experience</p>
           </div>
         </div>
 
         <div class="white-card2">
           <p class="text1">Teams</p>
-          <div class="text2"><p> $25/month</p> <p class="text3">Share with up to 10 users</p></div>
-          <div class="check-icons">icons</div>
+          <div class="text2"><p class="text2a">$25/month</p> <p class="text3">Share with up to 10 users</p></div>
+          
           <div class="check-text">
-            <p>Team Collaboration</p>
-             <p>User Roles and Permissions</p>
-            <p>Enhanced Security</p>
-            <p>API Access</p> 
-            <p>Dedicated Account Manager</p>
+            <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Team Collaboration</p>
+            <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> User Roles and Permissions</p>
+            <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Enhanced Security</p>
+            <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> API Access</p> 
+            <p class="ch-text"><img src="./assets/img/check-circle blue.svg" class="check"> Dedicated Account Manager</p>
           </div>
         </div>
       
@@ -244,8 +253,11 @@
     </section>
 
     <section class="trim-section">
-
-      <div>
+      <div class="trim-images">
+        <img src="./assets/img/form-img-left.svg" class="form-img-left">
+        <img src="./assets/img/form-img-right.svg" class="form-img-right">
+      </div>
+      <div class="fd">
         <form action="https://httpbin.org/get" method=" get" class="form-trim">
           <fieldset class="fieldset-trim">
         <input
@@ -285,6 +297,11 @@
     </section>
 
 <section class="faq-section">
+
+  <div class="faq-images">
+    <img src="./assets/img/faq-img-left.svg" class="faq-img-left">
+    <img src="./assets/img/faq-img-right.svg" class="faq-img-right">
+  </div>
 
   <div class=" faq-title-cn">
     icon
@@ -390,18 +407,38 @@
 </section>
 
     <section class="Revolute-section">
+      
+      <div class="revo-images">
+        <img src="./assets/img/revo-img-left.svg" class="revo-img-left">
+        <img src="./assets/img/revo-img-tight.svg" class="revo-img-right">
+      </div>
+
       <div class="revolute">
-        <h2 class="revo">Revolutionizing Link Optimization</h2>
-        <button class="started">Get Started</button>
+        <div class="revo-cn">
+          <h2 class="revo">Revolutionizing Link Optimization</h2>
+          <button class="started">Get Started</button>
+        </div>
       </div>
     </section>
 
     <section class="Footer-section">
+      <div class="footer-img">
+        <img src="./assets/img/footer-img-left.svg" class="footer-img-left">
+        <img src="./assets/img/footer-img-right.svg" class="footer-img-right">
+      </div>
 <div class="footer-cn">
   
         <div class="social">
-          <img src="./assets/img/scissors.png" />
-          <div class="sm-icons">icons</div>
+
+          <a href=""><img src="./assets/img/scissors-black.svg" class="black-logo"></a>
+          <div class="sm-icons">
+
+            <a href=""><img src="./assets/img/i.fi-social-twitter.svg"></a>
+            <a href="" class=""><img src="./assets/img/svg.IG.svg"></a>
+              <a href="" class=""><img src="./assets/img/i.fi-social-linkedin.svg"></a>
+            <a href="" class=""><img src="./assets/img/i.fi-social-facebook.svg"></a>
+
+          </div>
         </div>
   
         <div class="footer-links-cn">
@@ -409,57 +446,145 @@
           <div class="footer-links">
   
             <div class="g1">
-              <h3>Why Scissor ?</h3>
+              <h3 class="footer-nav-h3">Why Scissor ?</h3>
               <div >
-                <p class="g1-p">Scissor 101</p>
-                <p class="g1-p">Integrations and API</p>
-                <p class="g1-p">Pricing</p></div>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Scissor 101</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Integrations & API</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Pricing</p>
+                </a>
+              </div>
             </div>
   
             <div class="g2">
   
-              <h3>Resources</h3>
+              <h3 class="footer-nav-h3">Resources</h3>
               <div>
-                <p class="g1-p">Blog Resource</p>
-                <p class="g1-p">Library Developers</p>
-                <p class="g1-p">App Connectors</p>
-                <p class="g1-p">Support Trust</p>
-                <p class="g1-p">Center Browser</p>
-                <p class="g1-p">Extension Mobile App</p>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Blog</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Resource Library</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">App Connectors</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Support</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Trust Center</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Browser Extension</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Mobile App</p>
+                </a>
               </div>
             </div>
   
             <div class="g3">
-              <h3>Solutions</h3>
+              <h3 class="footer-nav-h3">Solutions</h3>
               <div>
-                Social Media Digital Marketing Customer Service For Developers
+                <a href="" class="footer-a">
+                  <p class="g1-p">Social Media</p>
+                </a>
+                 <a href="" class="footer-a">
+                   <p class="g1-p">Digital Marketing</p>
+                 </a>
+                 <a href="" class="footer-a">
+                   <p class="g1-p">Customer Service</p>
+                 </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">For Developers</p>
+                </a>
               </div>
             </div>
   
             <div class="g4">
-              <h3>Features</h3>
+              <h3 class="footer-nav-h3">Features</h3>
               <div>
-                Branded Links Mobile Links Campaign Management [&] Analytics QR Code
-                generation
+                <a href="" class="footer-a">
+                  <p class="g1-p">Branded Links</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Mobile Links</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Campaign</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Management & Analytics</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">QR Code generation</p>
+                </a>
               </div>
             </div>
   
             <div class="g5">
-              <h3>Products</h3>
-              <div>Link Management QR Codes Link-in-bio</div>
+              <h3 class="footer-nav-h3">Products</h3>
+              <div>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Link Management</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">QR Codes</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Link-in-bio</p>
+                </a>
+              </div>
             </div>
   
             <div class="g6">
-              <h3>Legal</h3>
+              <h3 class="footer-nav-h3">Legal</h3>
               <div>
-                Privacy Policy Cookie Policy Terms of Service Acceptable Use Policy
-                Code of Conduct
+                <a href="" class="footer-a">
+                  <p class="g1-p">Privacy Policy</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Cookie Policy</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Terms of Service</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Acceptable Use Policy</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Code of Conduct</p>
+                </a>
               </div>
             </div>
   
             <div class="g7">
-              <h3>Company</h3>
-              <div>About Scissor Careers Partners Press Contact Reviews</div>
+              <h3 class="footer-nav-h3">Company</h3>
+              <div>
+                <a href="" class="footer-a">
+                  <p class="g1-p">About Scissor</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Careers</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Partners</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Press</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Contact</p>
+                </a>
+                <a href="" class="footer-a">
+                  <p class="g1-p">Reviews</p>
+                </a>
+              </div>
             </div>
           </div>
   
@@ -472,7 +597,7 @@
       |
       <div>Security</div>
       |
-      <div>ⓒ Scissor 2023</div>
+      <div>&copy; Scissor 2023</div>
     </div>
   </body>
 </html>
