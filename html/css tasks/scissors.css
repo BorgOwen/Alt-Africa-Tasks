@@ -41,7 +41,7 @@ height: 40px;
 }
 
 .sc{
-    font-family: ;
+    font-family: 'Gilroy-Medium';
 font-size: 18px;
 line-height: 21.09px;
 text-decoration: none;
@@ -179,7 +179,7 @@ color: #141414;
     width: 768px;
     height: 224px;
     border-radius: 24px;
-    border-style: solid;
+    border-style: inset;
     border-width: 0.5px;
     border-color: #005AE2;
     background-color: #FEFEFE1A;
@@ -367,6 +367,7 @@ flex-direction: column;
     line-height: 48px;
     margin: 0px;
     font-family: 'Gilroy-Bold';
+    
 }
 
 .blue{
@@ -739,7 +740,7 @@ width: 392px;
 height: 55px;
 border-radius: 12px;
 border-style:  inset;
-border-width: 1px;
+border-width: 0.5px;
 border-color: #3284FF;
 background-color: transparent;
 color: #3284FF;
@@ -756,7 +757,7 @@ grid-row: 2; */
     height: 48px;
     border-radius: 12px;
     border-style:  inset;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: #3284FF;
     background-color: transparent;
     color: #3284FF;
@@ -794,6 +795,7 @@ gap: 12px;
     color: white;
     font-size: 14px;
 line-height: 36px;
+text-decoration: none;
 font-family: 'Gilroy-SemiBold';
 }
 
@@ -849,7 +851,7 @@ overflow: hidden;
 .faq-img-right{
     position: absolute;
     left:346px;
-    top: 420px;
+    top: 400px;
     z-index: 0;
     background-size:  804.53px 596.14px;
 }
@@ -1163,219 +1165,3 @@ max-width: 1440px;
     height: auto;
     /* transform: rotate(4deg); */
 }
-
-
-
-/* Frame 1000001649 */
-
-position: relative;
-width: 1440px;
-height: 299px;
-
-
-
-/* Rectangle 1 */
-
-position: absolute;
-width: 1440px;
-height: 400px;
-left: 0px;
-top: calc(50% - 400px/2 + 0.5px);
-
-background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
-
-
-/* Group 2 */
-
-position: absolute;
-width: 804.53px;
-height: 596.14px;
-left: 1085.38px;
-top: -97.5px;
-
-opacity: 0.7;
-transform: rotate(22.1deg);
-
-
-/* Vector */
-
-position: absolute;
-left: 77.72%;
-right: -14.75%;
-top: -10.52%;
-bottom: -57.83%;
-
-background: linear-gradient(272.53deg, rgba(158, 230, 247, 0) -5.73%, rgba(158, 230, 247, 0.138) 86.33%);
-transform: matrix(0.96, 0.29, -0.48, 0.88, 0, 0);
-
-
-/* Vector */
-
-position: absolute;
-left: 82.11%;
-right: -14.4%;
-top: 13.88%;
-bottom: -70.93%;
-
-background: linear-gradient(262.84deg, rgba(158, 230, 247, 0) 1.35%, rgba(158, 230, 247, 0.184) 87.81%);
-transform: matrix(0.96, 0.29, -0.48, 0.88, 0, 0);
-
-
-/* Vector */
-
-position: absolute;
-left: 70.26%;
-right: -7.5%;
-top: 128.7%;
-bottom: -167.1%;
-
-background: linear-gradient(340.22deg, rgba(0, 90, 226, 0.6) 11.62%, rgba(115, 230, 255, 0.228) 83.25%);
-transform: matrix(0.82, -0.57, 0.78, 0.63, 0, 0);
-
-
-/* Group 3 */
-
-position: absolute;
-width: 666.92px;
-height: 757.88px;
-left: -342.26px;
-top: 24.87px;
-
-opacity: 0.5;
-transform: rotate(-48.82deg);
-
-
-/* Vector */
-
-position: absolute;
-left: -23.77%;
-right: 90.67%;
-top: 8.32%;
-bottom: -101.31%;
-
-background: linear-gradient(272.54deg, rgba(158, 230, 247, 0) -5.72%, rgba(158, 230, 247, 0.138) 86.38%);
-transform: matrix(0.76, -0.65, 0.84, 0.55, 0, 0);
-
-
-/* Vector */
-
-position: absolute;
-left: -13.69%;
-right: 86.62%;
-top: -1.24%;
-bottom: -78.53%;
-
-background: linear-gradient(262.34deg, rgba(158, 230, 247, 0) 1.47%, rgba(158, 230, 247, 0.184) 92.99%);
-transform: matrix(0.76, -0.65, 0.84, 0.55, 0, 0);
-
-
-/* Vector */
-
-position: absolute;
-left: 8.48%;
-right: 66.83%;
-top: 87%;
-bottom: -152.29%;
-
-background: linear-gradient(346.02deg, rgba(0, 90, 226, 0.6) 3.96%, rgba(115, 230, 255, 0.228) 76.18%);
-transform: matrix(-0.5, -0.86, 0.95, -0.31, 0, 0);
-
-
-/* Frame 1000001654 */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 32px;
-
-position: absolute;
-width: 806px;
-height: 137px;
-left: calc(50% - 806px/2);
-top: 109px;
-
-
-
-/* Revolutionizing Link Optimization */
-
-width: 806px;
-height: 57px;
-
-font-family: 'Gilroy-Bold';
-font-size: 40px;
-line-height: 48px;
-/* or 120% */
-text-align: center;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Button */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-gap: 10px;
-
-width: 200px;
-height: 48px;
-
-/* Primary/400 */
-background: #005AE2;
-border-radius: 100px;
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
-
-/* Sample CTA */
-
-width: 88px;
-height: 12px;
-
-font-family: 'Gilroy-SemiBold';
-font-size: 16px;
-line-height: 12px;
-/* identical to box height, or 75% */
-
-/* Neutral/White */
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* magic wand */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 4px;
-gap: 10px;
-
-display: none;
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
