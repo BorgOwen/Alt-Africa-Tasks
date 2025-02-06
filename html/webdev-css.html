@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles2.css" />
-    <link rel="stylesheet" type="font-family" href="./assets/fonts/Lato/Lato-Black.ttf">
+    <link
+      rel="stylesheet"
+      type="font-family"
+      href="./assets/fonts/Lato/Lato-Black.ttf"
+    />
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,61 +21,66 @@
   <body>
     <div class="sign-up">
       <div class="left-content">
-        <div class="left">
-          <div
-            style="
-              margin-bottom: 50px;
-              width: 77.33px;
-              height: 80px;
-              filter: blur(0px 4px 10px rgba(0, 0, 0, 0.1));
-            "
-          >
-            <img
+        <div class="left-img">
+
+          <div class="round-img"
+                      >
+           <img
               src="/html/assets/img/Logo.png"
+              srcset="
+              /html/assets/img/Logo.png 600w,
+              /html/assets/img/Logo-phone.png 300w
+              "
+              sizes="
+              (max-width: 600px) 100vw, 50vw
+              "
               alt="logo"
-              style="filter:blur (0px 4px 10px rgba(0, 0, 0, 0.1));"
+              style="filter: blur (0px 4px 10px rgba(0, 0, 0, 0.1))"
             />
+           
           </div>
           <div>
-            <h1
-              style="
-                font-size: 40px;
-                font-weight: 700;
-                font-family: sans-serif;
-
-                line-height: 50px;
-                margin-bottom: 20px;
-                color: #000b0a;
-              "
+            <h1 class="left-h1"
+          
             >
               For Individuals
             </h1>
           </div>
           <div>
-            <p
-              style="
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 25px;
-                width: 460px;
-                height: 75px;
-              "
-            >
-              Start benefiting from the wellness experience. For companies
-              looking on increasing productivity, and improving organization
-              wellness.
-            </p>
+            
+            <span class="mobile-text">
+              <p class="left-p"
+                          >
+                          Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+              </p>
+            </span>
+
+            <span class="desktop-text">
+              <p class="left-p"
+                          >
+                Start benefiting from the wellness experience. For companies
+                looking on increasing productivity, and improving organization
+                wellness.
+              </p>
+            </span>
+
           </div>
         </div>
       </div>
 
       <div class="right-content">
-
         <div class="right-form">
           <form action="https://httpbin.org/get" method=" get">
-            <fieldset class="fieldset" style="display: grid; grid-template-rows: repeat(2, 1fr); grid-template-columns: 1, 1fr; gap: 15px;">
-              <div class="up" style="display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 1, 1fr; gap: 50px">
+            <fieldset
+              class="fieldset"
+              
+            >
+              <div
+                class="up"
+                
+              >
                 <div class="cont1">
+
                   <ul class="ul">
                     <li class="cont-lu">
                       <label for="First name">First Name: </label>
@@ -87,23 +96,10 @@
 
                   <ul class="ul">
                     <li class="cont-lu">
-                      <label for="gender">Gender </label>
-                      <input
-                        class="input-name_web"
-                        type=""
-                        placeholder="Select here"
-                        required
-                      />
-                    </li>
-                  </ul>
-
-                  <ul class="ul">
-                    <li class="cont-lu">
-                      <label for="Weight">Weight (KG) </label>
+                      <label for="Last name">Last Name: </label>
                       <input
                         class="input-name_web"
                         type="text"
-                        placeholder="Enter Weight"
                         required
                         autocomplete="on"
                       />
@@ -114,12 +110,12 @@
                 <div class="cont2">
                   <ul class="ul">
                     <li class="cont-lu">
-                      <label for="Last name">Last Name: </label>
+                      <label for="gender">Gender </label>
                       <input
                         class="input-name_web"
-                        type="text"
+                        type=""
+                        placeholder="Select here"
                         required
-                        autocomplete="on"
                       />
                     </li>
                   </ul>
@@ -135,6 +131,24 @@
                       />
                     </li>
                   </ul>
+                </div>
+
+                <div class="cont2">
+                  
+                  <ul class="ul">
+                    <li class="cont-lu">
+                      <label for="Weight">Weight (KG) </label>
+                      <input
+                        class="input-name_web"
+                        type="text"
+                        placeholder="Enter Weight"
+                        required
+                        autocomplete="on"
+                      />
+                    </li>
+                  </ul>
+
+
 
                   <ul class="ul">
                     <li class="cont-lu">
@@ -152,6 +166,7 @@
               </div>
 
               <div class="cont3">
+
                 <ul class="ul">
                   <li class="cont-lu">
                     <label for="Activity Level">Activity Level </label>
@@ -160,34 +175,37 @@
                       type="text"
                       placeholder="Select here"
                       required
-                                          />
+                    />
                   </li>
                 </ul>
 
                 <ul class="ul">
                   <li class="cont-lu">
                     <label for="password">Password </label>
-                    <input
-                      class="input-name_web2"
-                      type="password"
-                      required
-                      
-                    />
+                    <input class="input-name_web2" type="password" required />
                   </li>
                 </ul>
-                <button class="register-button"><a class="buy" href="">Register</a></button>
+                <button class="register-button">
+                  <a class="buy" href="">Register</a>
+                </button>
               </div>
 
               <footer class="footer-green">
-                <p>
-                  By clicking Register, you agree to our <span class="green"><a class="green" href="">Terms of Use</a></span> and our <span class="green"><a class="green" href="">Privacy Policy</a></span>
+                <p class="footer-p">
+                  By clicking Register, you agree to our
+                  <span class="green"
+                    ><a class="green" href="">Terms of Use</a></span
+                  >
+                  and our
+                  <span class="green"
+                    ><a class="green" href="">Privacy Policy</a></span
+                  >
                 </p>
               </footer>
             </fieldset>
           </form>
         </div>
-    
-    </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,6 +1,6 @@
 .h1-alt {
   color: #38065a;
-  font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+  font-family: 'Lato';
   text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
 }
 .nav-bar{
@@ -91,13 +91,7 @@ tr:hover {
 tr:active {
   background-color: #e97c7c
 }
-.Desktop {
-  width: auto;
-  background-color: #fff;
-  padding: auto;
-  margin: auto;
-  height: fit-content
-}
+
 .li-container{
   display: flex;
   gap: 24px;
@@ -126,7 +120,7 @@ tr:active {
 }
 .Otter2 {
   margin: auto;
-  font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+  font-family: 'Lato';
   font-size: x-large;
   color: #f8f0f8;
   text-align: center;
@@ -140,7 +134,7 @@ tr:active {
   z-index: 1
 }
 .mini {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Lato';
   font-size: 18px;
   text-align: justify;
   padding-inline: 20px;
@@ -153,7 +147,7 @@ tr:active {
   background-color: #fff
 }
 .block {
-  font-family: "Times New Roman",Times,serif;
+  font-family: 'Lato';
   font: size 35px;
   padding: 40px;
   width: auto;
@@ -172,7 +166,7 @@ tr:active {
 
 .fieldset1 {
   color: #fff;
-  font-family: Euclid Circular A;
+  font-family: 'Euclid Circular A';
   max-width: fit-content;
   height: fit-content;
   box-shadow: 0 4px 50px rgba(4,8,19,.1);
@@ -200,32 +194,12 @@ tr:active {
 .green {
   color: #442202
 }
-.Header {
-  height: 382px;
-  padding-top: 96px;
-  padding-left: 264px;
-  padding-bottom: 64px;
-  display: block
-}
+
 .berry {
   border-top-left-radius: 96px;
   border-bottom-left-radius: 264px
 }
-.main {
-  padding-top: 72px;
-  padding-left: 240px;
-  padding-right: 240px;
-  padding-bottom: 66px;
-  height: max-content;
-  margin: auto;
-  padding: auto;
-  background-color: #666;
-  display: flex;
-  flex-direction: column;
-  border-top: #a3a3a3;
-  border-width: 8px;
-  border-top-style: solid
-}
+
 
 .main-purple{
   padding-left: 240px;
@@ -238,25 +212,7 @@ tr:active {
   display: flex;
   flex-direction: column;
 }
-.card {
-  overflow: hidden;
-  width: 800px;
-  height: 312px;
-  background-color: #fff;
-  padding-top: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  border-bottom: #a3a3a3;
-  border-width: 8px;
-  border-bottom-style: solid;
-  box-shadow: (0 4px 10px rgba(0,0,0,.5));
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 0;
-  position: static
-}
+
 
 .card-watch{
   overflow: hidden;
@@ -272,19 +228,7 @@ tr:active {
   z-index: 0;
   position: static
 }
-.banner {
-  width: 398px;
-  height: 60px;
-  padding-top: 16px;
-  padding-left: 32px;
-  padding-bottom: 16px;
-  background-color: #ffbf00;
-  display: flex;
-  float: left;
-  position: absolute;
-  left: 240px;
-  z-index: 1
-}
+
 
 .wealth-banner {
   width: fit-content;
@@ -300,11 +244,6 @@ tr:active {
   z-index: 1
 }
 
-.Wealth {
-  font-size: 24px;
-  font-weight: 800px;
-  color: #551b3b
-}
 
 
 .Watch {
@@ -312,15 +251,6 @@ tr:active {
   font-weight: 800px
 }
 
-.pcontainer {
-  display: flex;
-  flex-direction: column;
-  padding-top: 90px;
-  width: 752px;
-  height: fit-content;
-  position: relative;
-  z-index: 0
-}
 
 .wcontainer {
   display: flex;
@@ -403,9 +333,9 @@ width: fit-content;
   .links {
   display: flex;
   gap: 20px;
-  font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+  font-family: 'Lato';
   font-weight: 500px;
-  font-size: 16px
+  font-size: 18px
 }
 .pcontainer1 {
   display: flex;
@@ -488,44 +418,27 @@ width: fit-content;
   height: fit-content;
   display: inline;
   padding-left: 24px;
-  font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
-  font-weight: 500px;
+  font-family: 'Lato';
+  font-weight: 500;
   font-size: 16px;
+  line-height: 24px;
   background-color: whitesmoke;
   padding: 20px;
   box-shadow: 0px 15px 35px rgba(43, 64, 78, 0.1);
   border-radius: 10px;
   z-index: 2;
 }
-.First-pa {
-  width: fit-content;
-  height: fit-content;
-  display: inline;
-  padding-left: 24px;
-  font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
-  font-weight: 500px;
-  font-size: 16px;
-  
-}
+
 .my-name{
-  font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+  font-family: 'Lato';
   font-weight: 700px;
   font-size: 24px;
   padding-bottom: 25px;
   color: #280242;
-  font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+  
 }
-.berry-p {
-  width: 415px;
-  height: 60px;
-  padding-block: 16px;
-  font-size: 20px;
-  font-weight: 800px
-}
-.Huckle {
-  font-size: 32px;
-  font-weight: 800px
-}
+
+
 @media only screen and (max-width:1200px) {
   .table {
     width: 100%;
@@ -543,7 +456,7 @@ width: fit-content;
     font-size: 36px
   }
 }
-/* @media (min-width: 768px) and (max-width: 1440px) */
+
 
 .input-name {
   width: 214px;
@@ -611,3 +524,378 @@ margin-bottom: 111px;
 margin-left: 71px;
 margin-right: 71px;
 }
+
+
+
+
+
+/* responsiveness for mobile*/
+
+@media (min-width: 390px) {
+
+  body{
+  font-family: 'Lato';
+}
+.Desktop {
+  width: 390px;
+  background-color: #fff;
+  height: fit-content;
+}
+
+.Header{
+  height: 382px;
+  width: 350px;
+  padding-top: 96px;
+  padding-left: 24px;
+  padding-bottom: 64px;
+  display: block
+}
+
+.Huckle{
+  font-family: 'Lato';
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 800px;
+
+}
+
+.berry-p {
+  width: 342px;
+  height: fit-content;
+  padding-block: 16px;
+  font-size: 20px;
+  font-weight: 800px
+}
+
+.main{
+  width: 380px;
+  padding-top: 72px;
+  padding-bottom: 66px;
+  padding-left: 0px;
+  height: 767px;
+  margin: 0px;
+  background-color: #666;
+  display: flex;
+  flex-direction: column;
+  border-top: #a3a3a3;
+  border-width: 8px;
+  border-top-style: solid
+}
+
+.card{
+
+  width: 332px;
+  height: 496px;
+  background-color: #fff;
+  padding-top: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  /* margin-left: 2px; */
+  border-bottom: #a3a3a3;
+  border-width: 8px;
+  border-bottom-style: solid;
+  box-shadow: (0 4px 10px rgba(0,0,0,.5));
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.green {
+  color: #188642}
+
+.banner{
+  min-width: 220px;
+  height:54px;
+  padding-top: 12px;
+  padding-left: 32px;
+  padding-bottom: 12px;
+  background-color: #ffbf00;
+  display: flex;
+  float: left;
+  position: relative;
+  left: -24px;
+  z-index: 2
+}
+.Wealth{
+  width: 318px;
+  height: 58px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  font-family: 'Lato';
+  font-size: 24px;
+  line-height: 26.8px;
+}
+.pcontainer{
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 90px; */
+  padding-inline: 0px;
+  width: 390px;
+  height: 455px;
+}
+.First-pa{
+  overflow:hidden;
+  width: 342px;
+  height: fit-content;
+  display: inline;
+  padding-inline: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  overflow: hidden;
+}
+}
+
+/* responsiveness for tab*/
+
+@media (min-width: 768px) {
+
+  .Desktop {
+    width: auto;
+    background-color: #fff;
+    padding: auto;
+    margin: auto;
+    height: fit-content;
+  }
+  
+  .Header{
+    height: 382px;
+      width: 768px;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    padding-left: 24px;
+    display: block
+  }
+
+  .Huckle{
+    font-family: 'Lato';
+      font-size: 32px;
+      line-height: 38.4px;
+      font-weight: 800;
+
+  }
+  
+  .berry-p {
+    min-width: 401px;
+    height: 60px;
+    padding-block: 16px;
+    font-size: 'Lato';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  .main{
+    width: 750px;
+    padding-top: 72px;
+    padding-bottom: 66px;
+    padding-left: 0px;
+    height: fit-content;
+    margin: 0px;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    border-top: #a3a3a3;
+    border-width: 8px;
+    border-top-style: solid
+  }
+  .card {
+    overflow:hidden;
+    width: 702px;
+    height: fit-content;
+    background-color: #fff;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    border-bottom: #a3a3a3;
+    border-width: 8px;
+    border-bottom-style: solid;
+    box-shadow: (0 4px 10px rgba(0,0,0,.5));
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+    position: relative;
+    
+  }
+  
+  .green {
+    color: #188642}
+  
+    .banner {
+      width: 398px;
+      height: 30px;
+      padding-top: 16px;
+      padding-inline: 32px;
+      padding-bottom: 15px;
+      background-color: #ffbf00;
+      display: flex;
+      float: left;
+      position: relative;
+      z-index: 2
+    }
+
+  .Wealth{
+    width: 720px;
+    height: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 24px;
+    line-height: 26.8px;
+  }
+
+  .pcontainer {
+    width: 720px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 90px; */
+    height: fit-content;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .First-pa {
+    height: fit-content;
+    display: inline;
+    width: 720px;
+    font-family: 'Lato';
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    
+    
+  }
+  }
+
+  /* responsiveness for desktop*/
+
+@media (min-width: 1280px) {
+
+  .Desktop {
+    width: 1280px;
+    height: 832px;
+    background-color: #fff;
+    padding: auto;
+    margin: auto;
+  }
+  
+  .Header{
+    width: 1280px;
+    height: 382px;
+    padding-left: 264px;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    display: block
+  }
+
+  .Huckle{
+    font-family: 'Lato';
+      font-size: 32px;
+      line-height: 38.4px;
+      font-weight: 800;
+
+  }
+  
+  .berry-p {
+    width: 415px;
+    height: fit-content;
+    font-size: 'Lato';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  .main{
+    width: 1280px;
+    padding-top: 72px;
+    padding-bottom: 66px;
+    padding-left: 0px;
+    height: fit-content;
+    margin: 0px;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    border-top: #a3a3a3;
+    border-width: 8px;
+    border-top-style: solid;
+  
+  }
+  .card {
+
+    width: 800px;
+    height: 312px;
+    background-color: #fff;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    border-bottom: #a3a3a3;
+    border-width: 8px;
+    border-bottom-style: solid;
+    box-shadow: (0 4px 10px rgba(0,0,0,.5));
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 240px;
+    top: 0px;
+  }
+  
+  .green {
+    color: #188642}
+  
+    .banner {
+      width: 398px;
+      height: 28px;
+      padding-top: 16px;
+      padding-left: 32px;
+      padding-bottom: 16px;
+      background-color: #ffbf00;
+      display: flex;
+      float: left;
+      position: relative;
+      left: -47px;
+      z-index: 2;
+    }
+
+  .Wealth{
+    width: 334px;
+    height: 29px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 24px;
+    line-height: 26.8px;
+  }
+
+  .pcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: fit-content;
+  }
+  
+  .First-pa {
+    width: 752px;
+    height: fit-content;
+    display: inline;
+    padding-left: 24px;
+    font-family: 'Lato';
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    
+  }
+  }
