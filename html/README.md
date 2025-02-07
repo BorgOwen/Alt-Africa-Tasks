@@ -7,12 +7,17 @@ https://css-note.oluwasetemi.dev/206
 
 ## List of Assignments
 
-- [Introduction](#index.html)
-- [Class Notes](#class-notes)
-- [Assignments](#assignments)
-- [Resources](#resources)
-- [Contributing](#contributing)
-- [License](#license)
+- [My Landing page](index.html) My personal portfolio landing page
+- [My media page](media.html) Box-model
+- [AltSchool Africa Signup](form.html) AltSchool Africa Signup page replica
+- [Mobile form Design](form2.html) Mobile Signup form
+- [AltAfrica Course Table](table.html)
+- [Responsive CSS](Css1.html)
+- [Box Model Basic Design](Otter-cs.html)
+- [Card Design](novus-css.html)
+- [Web Development Training](webdev-css.html)
+- [WP Pusher](WP-css.html)
+- [Scissors](scissors.html)
 
 
 
@@ -25,8 +30,8 @@ Assignments are provided to practice and apply the concepts learned in each sect
 - `grid-assignment/`
 - `stacking-context-assignment/`
 
-- `html/index.html` My personal portfolio landing page
-- `html/Css1.html` Box-model
-- `html/form.html` AltSchool Africa Signup page replica
-- `html/form2.html` Mobile Signup form
+- `html/index.html` 
+- `html/Css1.html` 
+- `html/form.html` 
+- `html/form2.html` 
 
