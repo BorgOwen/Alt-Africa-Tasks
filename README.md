@@ -18,6 +18,6 @@ https://alt-africa-tasks.vercel.app/
 - [Responsive CSS](/html/Css1.html) Responsive design for basic website elements (398 * 1024)
 - [Box Model Basic Design](/html/Otter-cs.html) Basic Box model design
 - [Card Design](/html/novus-css.html) Card Design for a Smartwatch
-- [Web Development Training](/html/webdev-css.html) Mobile and Desktop Responsive Form Design
+- [Web Development Training](/html/webdev-css.html) Responsive Form Design
 - [WP Pusher](/html/WP-css.html) Landing page/Form Submission Design
 - [Scissors](/html/scissors.html) Full complex landing page of an SME
