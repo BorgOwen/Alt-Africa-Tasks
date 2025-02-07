@@ -1,13 +1,13 @@
 # My AltAfrica HTML/CSS Assignments
 
-Welcome to my repository for the html/css assignments done during my Cloud Engineering course at AltAFrica. These assignments enabled me to fully understand and implement html/css concepts including the box model, flexbox, grid, and more.
+Welcome to my repository for the html/css assignments done during my Cloud Engineering course at AltAFrica for the first semester. These assignments enabled me to fully understand and implement html/css concepts including the box model, flexbox, grid, and more.
 
 ## Link to the assignment list
 https://css-note.oluwasetemi.dev/206
 
 ## List of Assignments
 
-- [Introduction](#introduction)
+- [Introduction](#index.html)
 - [Class Notes](#class-notes)
 - [Assignments](#assignments)
 - [Resources](#resources)
@@ -24,4 +24,9 @@ Assignments are provided to practice and apply the concepts learned in each sect
 - `flexbox-assignment/`
 - `grid-assignment/`
 - `stacking-context-assignment/`
-- `html/Css1.html`
+
+- `html/index.html` My personal portfolio landing page
+- `html/Css1.html` Box-model
+- `html/form.html` AltSchool Africa Signup page replica
+- `html/form2.html` Mobile Signup form
+
