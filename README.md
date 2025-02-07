@@ -10,14 +10,14 @@ https://alt-africa-tasks.vercel.app/
 
 ## List of Assignments
 
-- [My Landing page](index.html) My personal portfolio landing page
-- [My media page](media.html) Box-model
-- [AltSchool Africa Signup](form.html) AltSchool Africa Signup page replica
-- [Mobile form Design](form2.html) Mobile Signup form
-- [AltAfrica Course Table](table.html) AltSchool Africa Course Table replica
-- [Responsive CSS](Css1.html) Responsive design for basic website elements (398 * 1024)
-- [Box Model Basic Design](Otter-cs.html) Basic Box model design
-- [Card Design](novus-css.html) Card Design for a Smartwatch
-- [Web Development Training](webdev-css.html)
-- [WP Pusher](WP-css.html) Landing page/Form Submission Design
-- [Scissors](scissors.html) Full landing page of an SME
+- [My Landing page](/html/index.html) My personal portfolio landing page
+- [My media page](/html/media.html) Portfolio media page
+- [AltSchool Africa Signup](/html/form.html) AltSchool Africa Signup page replica
+- [Mobile form Design](/html/form2.html) Mobile Signup form
+- [AltAfrica Course Table](/html/table.html) AltSchool Africa Course Table replica
+- [Responsive CSS](/html/Css1.html) Responsive design for basic website elements (398 * 1024)
+- [Box Model Basic Design](/html/Otter-cs.html) Basic Box model design
+- [Card Design](/html/novus-css.html) Card Design for a Smartwatch
+- [Web Development Training](/html/webdev-css.html)
+- [WP Pusher](/html/WP-css.html) Landing page/Form Submission Design
+- [Scissors](/html/scissors.html) Full complex landing page of an SME
