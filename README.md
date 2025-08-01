@@ -1,6 +1,17 @@
-# My AltAfrica HTML/CSS Assignments
+# 🌐 HTML/CSS Assignments – AltAfrica Cloud Engineering (Semester 1)
 
-Welcome to my repository for the html/css assignments done during my Cloud Engineering course at AltAFrica for the first semester. These assignments enabled me to fully understand and implement html/css concepts including the box model, flexbox, grid, and more.
+Welcome to my repository for the HTML/CSS assignments completed during the **first semester** of my **Cloud Engineering course at AltAfrica**.
+
+These hands-on projects helped me solidify my understanding of core web development concepts, including:
+
+- ✅ HTML structure and semantics  
+- 🎯 CSS styling fundamentals  
+- 📦 Box model  
+- 🧱 Flexbox and Grid layouts  
+- 🖥️ Responsive design principles
+
+Each assignment is organized by topic, demonstrating both foundational and advanced front-end techniques.
+
 
 ## Link to the assignment list
 https://css-note.oluwasetemi.dev/206
